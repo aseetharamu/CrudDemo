@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password: spring
+    url: jdbc:oracle:thin:@localhost:1521/XEPDB1
+    username: asha
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mappings: false
+
+      
+
+  security:
+    oauth2:
+      client:
+        registration:
+           github:
+              clientId: fb09b91a940c34b16fdd
+              clientSecret: 704c0050a06285f1179c01cf54dddf8da43ced7d 
+   
+server:
+  port: 8080
