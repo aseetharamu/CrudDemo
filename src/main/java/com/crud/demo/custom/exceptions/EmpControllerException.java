@@ -9,7 +9,7 @@ public class EmpControllerException extends RuntimeException{
 		this.setErr_msg(errMsg);
 		this.setErr_code(errCode);		
 	}
-	
+	//Default constructor
 	public EmpControllerException() {
 		
 	}

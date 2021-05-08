@@ -5,6 +5,7 @@ public class EmptyInputException extends RuntimeException{
 	private String errMsg;
 	private String errCode;
 	
+	//This is for global exception in newbranch
 	public EmptyInputException (String err_msg, String err_code) {
 		this.setErrMsg(err_msg);
 		this.setErrCode(err_code);

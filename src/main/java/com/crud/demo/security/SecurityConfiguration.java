@@ -34,7 +34,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  * 
  * } }
  */
-  
+  //Oauth example through github login
   @EnableWebSecurity public class SecurityConfiguration extends
   WebSecurityConfigurerAdapter {
   
