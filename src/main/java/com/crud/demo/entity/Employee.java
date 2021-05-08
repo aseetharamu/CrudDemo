@@ -24,7 +24,7 @@ public class Employee {
    )
     @GenericGenerator( name = "native", strategy = "native" )
 	 
-	//getters and setters
+	//getters and setters with lombok
 	private long id;	
 	private String name;
 
