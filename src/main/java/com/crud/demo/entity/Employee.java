@@ -24,6 +24,7 @@ public class Employee {
    )
     @GenericGenerator( name = "native", strategy = "native" )
 	 
+	//getters and setters
 	private long id;	
 	private String name;
 
